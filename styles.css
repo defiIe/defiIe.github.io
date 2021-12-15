@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&family=Roboto+Mono&family=Work+Sans&display=swap');
+
+#splash {
+  position: absolute;
+  right: 7px;
+  border-radius: 6px;
+  border: 1px solid #bfbfbf;
+  padding: 9px;
+  font-family: 'Work Sans', sans-serif;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+input[type=text] {
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.3);
+  font-family: 'Work Sans', sans-serif;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #bfbfbf;
+}
+
+body {
+  background-color: #B7E9F7;
+}
+
+.button {
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.3);
+  font-family: 'Work Sans', sans-serif;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 1px solid #bfbfbf;
+}
+
+input[type=text]:active {
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.3);
+  outline: none;
+  font-family: 'Work Sans', sans-serif;
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+#copyright {
+  font-family: 'Work Sans', sans-serif;
+  position: absolute;
+  bottom: 5px;
+  color: #707070;
+  opacity: 0.5;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
